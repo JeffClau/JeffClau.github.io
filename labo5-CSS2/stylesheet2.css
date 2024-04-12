@@ -39,20 +39,3 @@ footer {
 header {
     margin-bottom: 10px;
 }
-
-/* Lettertype: Helvetica
-Lettergrootte h1: 80px
-Lettergrootte h2: 40px
-Kleur h1 en h2 in header: #EDF2F4
-
-Geef de 3 blokken (header, footer en education) een padding van 30px;
-
-Rode kleur van de links: #EF233C
-Grijze tekstkleur in header en footer: #8D99AE
-Achtergrondkleur header en footer: #2B2D42
-Achtergrondkleur education: #8D99AE
-
-Door een margin van 10px te plaatsen op de header en footer creeëren we de witruimte tussen de 3 blokken:
-Voeg een margin-bottom toe aan de header
-Voeg een margin-top toe aan de footer
-/*
