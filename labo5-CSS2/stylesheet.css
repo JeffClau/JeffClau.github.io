@@ -1,4 +1,4 @@
-.menuitem {
+.menuitem>li {
     display: inline-block;
     width: 150px;
 }
