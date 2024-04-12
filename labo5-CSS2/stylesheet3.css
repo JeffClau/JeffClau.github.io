@@ -13,7 +13,7 @@ a::before {
     content:'';
     background-image: url('/images/url.png');
     width: 5px;
-    height: 5x;
+    height: 5px;
 }
 
 a:hover {
