@@ -24,6 +24,4 @@ a:hover {
 
 .stippeltjesrand {
     border: 1px dotted black;
-    border-radius: 10px 20px 30px 40px;
-    border-width: 100px;
 }
