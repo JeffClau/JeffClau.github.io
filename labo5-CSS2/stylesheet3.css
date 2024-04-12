@@ -9,7 +9,7 @@ h1 {
     background-color: red;
 }
 
-a::before {
+a:before {
     content:'';
     background-image: url('/images/url.png');
     width: 5px;
