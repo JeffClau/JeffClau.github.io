@@ -29,6 +29,7 @@ a:hover {
 }
 
 ul.checklist:before {
+    list-style: none;
     content: '';
     display: inline-block;
     background-image: url('/images/Unchecked.png');
@@ -37,7 +38,7 @@ ul.checklist:before {
     height: 20px;
 }
 
-.checked .checklist:before {
+.checklist:before {
     content: '';
     display: inline-block;
     background-image: url('/images/Checked.png');
