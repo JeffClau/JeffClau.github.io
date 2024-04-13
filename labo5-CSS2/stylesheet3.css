@@ -27,3 +27,11 @@ a:hover {
 .stippeltjesrand {
     border: 1px dotted black;
 }
+
+.checklist {
+    list-style-image: url('/images/Unchecked.png');
+}
+
+.checked .checklist {
+    list-style-image: url('/images/Checked.png');
+}
