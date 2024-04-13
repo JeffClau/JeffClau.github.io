@@ -33,5 +33,7 @@ a:hover {
 }
 
 .checked .checklist {
+    line-height: 1.5em;
     list-style-image: url('/images/Checked.png');
+    
 }
