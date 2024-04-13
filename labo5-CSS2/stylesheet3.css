@@ -21,7 +21,6 @@ a:before {
 
 a:hover {
     border: 1px solid rgb(245, 9, 147);
-    
 }
 
 .stippeltjesrand {
@@ -30,12 +29,12 @@ a:hover {
 
 ul.checklist {
     list-style-image: url('/images/Unchecked.png');
-    size : contain;
+    size: contain;
     width: 20px;
     height: 20px;
 }
 
-.checklist:before {
+.checked:before {
     content: '';
     display: inline-block;
     background-image: url('/images/Checked.png');
