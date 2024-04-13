@@ -9,12 +9,11 @@ h1 {
     background-color: red;
 }
 
-a:before {
-    content: '';
-    display: inline-block;
-    background-image: url('/images/chain-link-icon.jpg');
-    width: 20px;
-    height: 20px;
+a {
+    height: 40px;
+    padding: 0 40px;
+    text-align: center;
+    background: url("/images/chain-link-icon.jpg") left no-repeat;
 }
 
 a:hover {
