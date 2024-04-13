@@ -28,12 +28,21 @@ a:hover {
     border: 1px dotted black;
 }
 
-.checklist {
-    list-style-image: url('/images/Unchecked.png');
+ul.checklist:before {
+    content: '';
+    display: inline-block;
+    background-image: url('/images/Unchecked.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
 }
 
-.checked .checklist {
-    line-height: 1.5em;
-    list-style-image: url('/images/Checked.png');
+.checked .checklist:before {
+    content: '';
+    display: inline-block;
+    background-image: url('/images/Checked.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
     
 }
