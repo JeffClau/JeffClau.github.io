@@ -14,8 +14,9 @@ header ul {
     line-height: center;
 }
 
-header il {
+header li {
     display: inline;
+    margin: 1 10px 0 0;
     line-height: center;
 }
 
