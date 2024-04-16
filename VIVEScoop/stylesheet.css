@@ -10,9 +10,12 @@ header {
     text-align: center;
 }
 header ul {
-    list-style-type: none;
-    display: inline-block;
-    padding-right: 20px;
+    list-style: none;
+    line-height: center;
+}
+
+header il {
+    display: inline;
     line-height: center;
 }
 
@@ -25,4 +28,19 @@ header::before {
 
 a.hover {
     color: #e0878e;
+}
+
+footer {
+    padding-top: 25px;
+    background-color: #eeeeee;
+    color: #32bea6;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    font-size: 14px;
+    list-style-type: none;;
+    padding: 10px;
+    line-height: center;
 }
