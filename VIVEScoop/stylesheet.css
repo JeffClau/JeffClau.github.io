@@ -30,15 +30,42 @@ header li {
     line-height: center;
 }
 
-a.hover {
+a:hover {
     color: #e0878e;
 }
 
-.overview ul{
+div#poster{
+    clear: both;
+}
+
+div#content{
+    float: left;
+    width: 66%;
+}
+
+#data ul{
     list-style: none;
 }
 
-.overview li{
+#data li{
+    display: inline;
+}
+
+
+article#sidebar{
+    float: right;
+    width: 33%;
+}
+    
+div#interests{
+    clear: both;
+}
+
+#interests ul{
+    list-style: none;
+}
+
+#interests li{
     display: inline;
 }
 
@@ -46,13 +73,29 @@ footer {
     padding-top: 25px;
     background-color: #eeeeee;
     color: #32bea6;
-    padding: 10px;
-    text-align: center;
+    font-size: 14px;
 }
 
-footer ul {
-    font-size: 14px;
-    list-style-type: none;;
-    padding: 10px;
-    line-height: center;
+footer#movies{
+float: left;
+}
+
+#movies ul{
+    list-style: none;
+}
+
+footer#events{
+    float: center;
+}
+
+#events ul{
+    list-style: none;
+}
+
+footer#campussen{
+    float: right;
+}
+
+#campussen ul{
+    list-style: none;
 }
