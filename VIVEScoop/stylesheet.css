@@ -37,7 +37,7 @@ header#links {
 #links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
-    line-height: center;
+    text-align: center;
 }
 
 a:hover {
@@ -75,13 +75,11 @@ th {
     text-align: center;
 }
 
-td{
-    border:none;
+td:nth-child(odd){ 
     text-align: right;
 }
 
-td{
-    border:none;
+td:nth-child(even){
     text-align: left;
 }
 
@@ -148,7 +146,7 @@ footer h2 {
 footer ul li {
     list-style: none;
     list-style-position: inside;
-    padding: 0;
+    text-align: left;
 }
 
 #movies>li {
