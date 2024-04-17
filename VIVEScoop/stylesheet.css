@@ -118,8 +118,13 @@ div#interests {
     margin: 25px 0px 0px 15px;
 }
 
+#interests>h2 {
+    font-size: 2em;
+}
+
 #interests>ul {
     list-style: none;
+    list-style-position: inside;
     max-width: 100%;
 }
 
@@ -128,7 +133,7 @@ div#interests {
 }
 
 footer {
-    padding-top: 25px;
+    margin: 25px;
     background-color: #eeeeee;
     color: #32bea6;
     font-size: 14px;
@@ -144,13 +149,21 @@ footer ul {
 }
 
 footer#movies {
+    margin: 5px;
     text-align: left;
 }
 
 footer#events {
+    margin: 5px;
     text-align: left;
 }
 
 footer#campussen {
+    margin: 5px;
     text-align: left;
+}
+
+footer#copyright{
+    margin: 5px;
+    text-align: bottom-right;
 }
