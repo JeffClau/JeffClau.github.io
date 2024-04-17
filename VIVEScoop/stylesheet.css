@@ -20,6 +20,7 @@ header#logo{
     float: left;
     display: inline;
     max-width: 50px;
+    height:auto;
     object-fit: scale-down;
 }
 
