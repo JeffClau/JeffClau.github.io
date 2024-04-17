@@ -105,11 +105,17 @@ td:hover {
 div#sidebar {
     max-width: 300px;
     text-align: left;
-    margin: 20px 15px 20px 15px;
+    margin: 0px 15px 20px 15px;
 }
 
 #sidebar>h2 {
     font-size: 21px;
+}
+
+div#interests {
+    max-width: 100%;
+    text-align: left;
+    margin: 25px 0px 0px 15px;
 }
 
 #interests>ul {
