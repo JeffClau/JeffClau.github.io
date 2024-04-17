@@ -5,7 +5,7 @@ body {
 }
 
 body > section {
-    width:fit-content;
+    width: 1200px;
     margin: auto;
 }   
 
