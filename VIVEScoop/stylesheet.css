@@ -9,6 +9,17 @@ header {
     padding: 10px;
     text-align: center;
 }
+
+header#logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+header#links{
+    float: right;
+}
+
 header ul {
     list-style: none;
 }
@@ -17,12 +28,6 @@ header li {
     display: inline;
     margin: 0 10px 0 0;
     line-height: center;
-}
-
-header ul::before {
-    content: url(/VIVEScoop/Images/logo.png), left middle no-repeat;
-    height: 50px;
-    width: 50px;
 }
 
 a.hover {
