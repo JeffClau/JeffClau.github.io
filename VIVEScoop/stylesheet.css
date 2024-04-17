@@ -75,8 +75,14 @@ th {
     text-align: center;
 }
 
-tr {
-    border: none;
+td{
+    border:none;
+    text-align: right;
+}
+
+td{
+    border:none;
+    text-align: left;
 }
 
 tr:nth-child(odd) {
@@ -89,20 +95,6 @@ tr:nth-child(even) {
 
 tr:last-child() {
     font-size: 70%;
-}
-
-td {
-    vertical-align: middle;
-    border: 1px solid #8c4646;
-    border-width: 0px 1px 1px 0px;
-}
-
-td:nth-child(odd) {
-    text-align: right;
-}
-
-td:nth-child(even) {
-    text-align: left;
 }
 
 td:hover {
