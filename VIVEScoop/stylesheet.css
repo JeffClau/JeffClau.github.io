@@ -17,7 +17,7 @@ header {
     max-width: 990px;
 }
 
-header#logo {
+article#logo {
     margin: 10px;
     display: block;
     max-width: 50px;
@@ -147,7 +147,6 @@ footer h2 {
 footer ul li {
     list-style: none;
     list-style-position: inside;
-    margin:0;
     padding:0;
 }
 
@@ -168,5 +167,5 @@ footer#campussen {
 
 footer#copyright{
     margin: 5px;
-    text-align: bottom-right;
+    text-align: bottom right;
 }
