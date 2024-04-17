@@ -11,7 +11,6 @@ header {
 }
 header ul {
     list-style: none;
-    line-height: center;
 }
 
 header li {
@@ -29,6 +28,14 @@ header::before {
 
 a.hover {
     color: #e0878e;
+}
+
+.overview ul{
+    list-style: none;
+}
+
+.overview li{
+    display: inline;
 }
 
 footer {
