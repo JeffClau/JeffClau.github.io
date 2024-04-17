@@ -59,19 +59,23 @@ table{
     border-collapse: collapse;
     border-spacing: 0;
     width:100%;
-    height:100%;
     margin:0px;
     padding:0px;
 }
 
 tr:nth-child(odd){
-   background-color:#ffaa56;
+   background-color:white;
 }
+
+tr:nth-child(even){
+   background-color:#bebebe;
+}
+
 td:nth-child(odd){
    text-align: right;
 }
 
-tr:nth-child(even){
+td:nth-child(even){
    text-align: left;
 }
 
