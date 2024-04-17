@@ -41,15 +41,6 @@ a:hover {
     color: #e0878e;
 }
 
-div#poster {
-    clear: both;
-}
-
-div#content {
-    float: left;
-    width: 66%;
-}
-
 article#summary>h1 {
     font-size: 3em;
 }
@@ -90,17 +81,8 @@ td:hover {
     background-color: #ce0000;
 }
 
-article#sidebar {
-    float: left;
-    width: 33%;
-}
-
 #sidebar>h2 {
     font-size: 21px;
-}
-
-div#interests {
-    clear: both;
 }
 
 #interests>ul {
@@ -123,7 +105,6 @@ footer h2 {
 }
 
 footer#movies {
-    float: left;
     text-align: left;
 }
 
@@ -132,12 +113,9 @@ footer ul {
 }
 
 footer#events {
-    float: left;
     text-align: left;
 }
 
-
 footer#campussen {
-    float: left;
     text-align: left;
 }
