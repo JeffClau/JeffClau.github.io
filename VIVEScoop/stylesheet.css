@@ -14,6 +14,7 @@ header {
     color: #32bea6;
     padding: 10px;
     text-align: center;
+    max-width: 990px;
 }
 
 header#logo {
@@ -39,6 +40,12 @@ header#links {
 
 a:hover {
     color: #e0878e;
+}
+
+div#poster{
+    max-width: 990px;
+    max-height: auto;
+    object-fit: scale-down;
 }
 
 div#content {
