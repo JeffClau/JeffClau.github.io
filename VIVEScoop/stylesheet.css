@@ -31,7 +31,7 @@ header#links {
     list-style: none;
 }
 
-#links > li {
+#links > ul > li {
     display: inline;
     margin: 0 10px 0 0;
     line-height: center;
@@ -39,6 +39,10 @@ header#links {
 
 a:hover {
     color: #e0878e;
+}
+
+div#content {
+    text-align: left;
 }
 
 article#summary>h1 {
