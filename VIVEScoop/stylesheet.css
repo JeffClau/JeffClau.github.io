@@ -71,7 +71,7 @@ div#interests{
     list-style: none;
 }
 
-#interests > li{
+#interests > ul > li{
     display: inline;
 }
 
