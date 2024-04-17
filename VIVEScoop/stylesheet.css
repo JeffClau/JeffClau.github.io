@@ -4,10 +4,10 @@ body {
     text-align: center;
 }
 
-body>section {
+body > section {
     width: 1200px;
     margin: auto;
-}
+}   
 
 header {
     background-color: #eeeeee;
@@ -16,7 +16,7 @@ header {
     text-align: center;
 }
 
-header#logo {
+header#logo{
     float: left;
     display: inline;
     height: 50px;
@@ -24,7 +24,7 @@ header#logo {
     object-fit: scale-down;
 }
 
-header#links {
+header#links{
     float: right;
 }
 
@@ -42,73 +42,73 @@ a:hover {
     color: #e0878e;
 }
 
-div#poster {
+div#poster{
     clear: both;
 }
 
-div#content {
+div#content{
     float: left;
     width: 66%;
 }
 
-article#summary>h1 {
+article#summary > h1{
     font-size: 3em;
 }
 
-data>table {
+table{
     border: dotted 1px black;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    width:100%;
+    margin:0px;
+    padding:0px;
 }
 
-data>table>tr:nth-child(odd) {
-    background-color: white;
+tr:nth-child(odd){
+   background-color:white;
 }
 
-data>table>tr:nth-child(even) {
-    background-color: #bebebe;
+tr:nth-child(even){
+   background-color:#bebebe;
 }
 
-data>table>td {
-    vertical-align: middle;
-    border: 1px solid #8c4646;
-    border-width: 0px 1px 1px 0px;
-    padding: 3px;
+td{
+    vertical-align:middle;
+    border:1px solid #8c4646;
+    border-width:0px 1px 1px 0px;
+    padding:3px;
 }
 
-data>table>td:nth-child(odd) {
-    text-align: right;
+td:nth-child(odd){
+   text-align: right;
 }
 
-data>table>td:nth-child(even) {
-    text-align: left;
+td:nth-child(even){
+   text-align: left;
 }
 
-data>table>td:hover {
+td:hover{
     background-color: #ce0000;
 }
 
-article#sidebar {
+article#sidebar{
     float: left;
     width: 33%;
 }
 
-#sidebar>h2 {
+#sidebar > h2{
     font-size: 21px;
 }
-
-div#interests {
+    
+div#interests{
     clear: both;
 }
 
-#interests>ul {
+#interests > ul{
     list-style: none;
 }
 
-#interests>ul>li {
+#interests > ul > li{
     display: inline;
 }
 
@@ -119,16 +119,26 @@ footer {
     font-size: 14px;
 }
 
-footer h2 {
+footer h2{
     font-size: 16px;
 }
 
-footer ul {
+footer#movies{
+float: left;
+text-align: left;
+}
+
+footer ul{
     list-style: none;
 }
 
-data>table {
-    border: none;
-    width: 100%;
+footer#events{
+    float: left;
+    text-align: left;
+}
+
+
+footer#campussen{
+    float: left;
     text-align: left;
 }
