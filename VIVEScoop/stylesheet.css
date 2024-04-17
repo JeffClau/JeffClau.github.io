@@ -114,6 +114,7 @@ div#sidebar {
 
 #interests>ul {
     list-style: none;
+    max-width: 100%;
 }
 
 #interests>ul>li {
