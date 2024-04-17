@@ -21,6 +21,7 @@ header {
 
 #logo>img {
     margin: 10px;
+    padding: 0px;
     display: block;
     max-width: 50px;
     max-height: 50px;
@@ -29,11 +30,8 @@ header {
 }
 
 header#links {
-    float: right;
-}
-
-header#links {
-    list-style: none;
+    color:#32bea6;
+    text-align: center;
 }
 
 #links>ul>li {
@@ -77,7 +75,7 @@ th {
     text-align: center;
 }
 
-tr{
+tr {
     border: none;
 }
 
@@ -121,7 +119,10 @@ div#sidebar {
     font-size: 21px;
 }
 
+
+
 div#interests {
+    
     max-width: 100%;
     text-align: left;
     margin: 25px 0px 0px 15px;
