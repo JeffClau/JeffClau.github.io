@@ -27,11 +27,11 @@ header#links{
     float: right;
 }
 
-header > ul {
+header ul {
     list-style: none;
 }
 
-header > li {
+header li {
     display: inline;
     margin: 0 10px 0 0;
     line-height: center;
@@ -54,10 +54,19 @@ article#summary > h1{
     font-size: 3em;
 }
 
-#data > table{
+table{
     border: dotted 1px black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
 }
 
+tr:nth-child(odd){
+   background-color:#ffaa56;
+}
 
 article#sidebar{
     float: left;
