@@ -61,7 +61,7 @@ article#summary>h1 {
     font-size: 3em;
 }
 
-table {
+#data>table {
     table-layout: fixed;
     border: dotted 1px black;
     border-collapse: collapse;
@@ -70,32 +70,38 @@ table {
     width: 100%;
 }
 
-th {
+#data>table>th {
     border: 0 0 3px 0 solid black;
     text-align: center;
 }
 
-td:nth-child(odd){ 
+#data>table>td{
+    border: 0 0 0 1px solid black;
+}
+
+#data>table>td:nth-child(odd){ 
+    margin:0 5px 0 0;
     text-align: right;
 }
 
-td:nth-child(even){
+#data>table>td:nth-child(even){
+    margin:0 0 0 5px;
     text-align: left;
 }
 
-tr:nth-child(odd) {
+#data>table>tr:nth-child(odd) {
     background-color: #bebebe;
 }
 
-tr:nth-child(even) {
+#data>table>tr:nth-child(even) {
     background-color: white;
 }
 
-tr:last-child() {
+#data>table>tr:last-child() {
     font-size: 70%;
 }
 
-td:hover {
+#data>table>td:hover {
     background-color: #ce0000;
 }
 
