@@ -18,7 +18,7 @@ header {
 }
 
 header#logo {
-    display: inline;
+    margin: 10px;
     max-width: 50px;
     height: auto;
     object-fit: scale-down;
@@ -34,7 +34,7 @@ header#links {
 
 #links > ul > li {
     display: inline;
-    margin: 0 10px 0 0;
+    margin: 0 20px 0 0;
     line-height: center;
 }
 
@@ -46,9 +46,11 @@ div#poster{
     max-width: 990px;
     max-height: auto;
     object-fit: scale-down;
+    margin: 10px 0 0 0;
 }
 
 div#content {
+    max-width: 660px;
     text-align: left;
 }
 
@@ -60,9 +62,7 @@ table {
     border: dotted 1px black;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    max-width: 990px;
 }
 
 tr:nth-child(odd) {
@@ -92,6 +92,11 @@ td:hover {
     background-color: #ce0000;
 }
 
+div#sidebar {
+    max-width: 300px;
+    text-align: left;
+}
+
 #sidebar>h2 {
     font-size: 21px;
 }
@@ -115,12 +120,13 @@ footer h2 {
     font-size: 16px;
 }
 
-footer#movies {
-    text-align: left;
-}
-
 footer ul {
     list-style: none;
+    list-style-position: inside;
+}
+
+footer#movies {
+    text-align: left;
 }
 
 footer#events {
