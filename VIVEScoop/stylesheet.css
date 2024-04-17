@@ -17,7 +17,6 @@ header {
 }
 
 header#logo {
-    float: left;
     display: inline;
     max-width: 50px;
     height: auto;
@@ -28,11 +27,11 @@ header#links {
     float: right;
 }
 
-header ul {
+header#links {
     list-style: none;
 }
 
-header li {
+#links > li {
     display: inline;
     margin: 0 10px 0 0;
     line-height: center;
