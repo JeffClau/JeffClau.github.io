@@ -20,7 +20,7 @@ header#logo{
     float: left;
     height: 50px;
     width: 50px;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 header#links{
@@ -71,12 +71,23 @@ tr:nth-child(even){
    background-color:#bebebe;
 }
 
+td{
+    vertical-align:middle;
+    border:1px solid #8c4646;
+    border-width:0px 1px 1px 0px;
+    padding:3px;
+}
+
 td:nth-child(odd){
    text-align: right;
 }
 
 td:nth-child(even){
    text-align: left;
+}
+
+td:hover{
+    background-color: #ce0000;
 }
 
 article#sidebar{
