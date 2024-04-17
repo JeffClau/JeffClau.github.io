@@ -59,7 +59,7 @@ article#summary > h1{
 
 
 article#sidebar{
-    float: right;
+    float: left;
     width: 33%;
 }
     
@@ -91,7 +91,7 @@ float: left;
 }
 
 footer#events{
-    float: center;
+    float: left;
 }
 
 #events > ul{
@@ -99,7 +99,7 @@ footer#events{
 }
 
 footer#campussen{
-    float: right;
+    float: left;
 }
 
 #campussen > ul{
