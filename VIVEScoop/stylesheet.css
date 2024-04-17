@@ -53,14 +53,8 @@ article#summary > h1{
     font-size: 3em;
 }
 
-#data > ul{
-    list-style: none;
+#data > table{
     border: dotted 1px black;
-
-}
-
-#data > li{
-    display: inline;
 }
 
 
