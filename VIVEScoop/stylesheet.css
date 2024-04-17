@@ -19,7 +19,7 @@ header {
 
 header#logo {
     margin: 10px;
-    max-width: 50px;
+    max-block-size: 50px;
     height: auto;
     object-fit: scale-down;
 }
