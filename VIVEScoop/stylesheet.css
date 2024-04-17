@@ -67,6 +67,13 @@ table{
 tr:nth-child(odd){
    background-color:#ffaa56;
 }
+td:nth-child(odd){
+   text-align: right;
+}
+
+tr:nth-child(even){
+   text-align: left;
+}
 
 article#sidebar{
     float: left;
