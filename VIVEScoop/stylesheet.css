@@ -46,13 +46,12 @@ div#poster {
     max-width: 990px;
     max-height: auto;
     object-fit: scale-down;
-    margin: 10px 0 0 0;
 }
 
 div#content {
     max-width: 660px;
     text-align: left;
-    margin: 0 15px 0 15px;
+    margin: 10px 15px 0 15px;
 }
 
 article#summary>h1 {
@@ -143,9 +142,11 @@ footer h2 {
     font-size: 16px;
 }
 
-footer ul {
+footer ul li {
     list-style: none;
     list-style-position: inside;
+    margin:0;
+    padding:0;
 }
 
 footer#movies {
