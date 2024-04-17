@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-body>section {
+section {
     max-width: 990px;
     width: auto;
     margin: auto;
@@ -75,6 +75,10 @@ table {
 th {
     border: 0 0 3px 0 solid black;
     text-align: center;
+}
+
+tr{
+    border: none;
 }
 
 tr:nth-child(odd) {
