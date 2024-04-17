@@ -19,9 +19,8 @@ header li {
     line-height: center;
 }
 
-header::before {
+header ul::before {
     content: url(/VIVEScoop/Images/logo.png), left middle no-repeat;
-    
     height: 50px;
     width: 50px;
 }
