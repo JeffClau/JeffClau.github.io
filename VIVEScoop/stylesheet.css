@@ -65,7 +65,7 @@ article#summary>h1 {
     font-size: 3em;
 }
 
-#data>table {
+article#data>table {
     table-layout: fixed;
     border: dotted 1px black;
     border-collapse: collapse;
@@ -119,8 +119,6 @@ div#sidebar {
     font-size: 21px;
 }
 
-
-
 div#interests {
 
     max-width: 100%;
@@ -161,7 +159,6 @@ footer ul {
 
 footer ul li {
     list-style: none;
-    list-style-position: inside;
     text-align: left;
 
 }
