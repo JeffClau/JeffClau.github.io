@@ -57,12 +57,15 @@ a:hover {
 
 div#content {
     max-width: 660px;
-    text-align: left;
     margin: 10px 15px 0 15px;
 }
 
 article#summary>h1 {
     font-size: 3em;
+}
+
+article#summary{
+    text-align: left;
 }
 
 article#data>table {
