@@ -2,10 +2,10 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
     text-align: left;
+    width: 990px;
 }
 
 section {
-    width: 990px;
     align-content: center;
 }
 
@@ -36,25 +36,20 @@ article#links>ul {
 article#links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
-
 }
 
 a:hover {
     color: #e0878e;
 }
 
-div#poster>img {
-    margin: 10px;
+/*div#poster>img {
     width: auto;
     height: auto;
     scale: auto;
-}
+}*/
 
-/*div#content {
-    max-width: 66%;
-}
-*/
 article#summary>h1 {
+    margin-top: 10px;
     font-size: 3em;
 }
 
@@ -99,10 +94,6 @@ table td:hover {
     background-color: #ce0000;
 }
 
-/*div#sidebar {
-    max-width: 33%;
-}
-*/
 div#sidebar>h2 {
     font-size: 21px;
 }
@@ -114,7 +105,7 @@ article.grid-container {
     gap: 10px;
 }
 
-div#interests { 
+div#interests {
     margin: 25px 0 0 0;
 }
 
@@ -158,5 +149,11 @@ article#copyright {
     div#sidebar {
         margin: 20px 15px 0 15px;
     }
+
+    article.grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-container: {}
 
 }
