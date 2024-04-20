@@ -27,14 +27,14 @@ article#logo>img {
     height: auto;
 }
 
-header#links {
+article#links {
     color: #32bea6;
 }
 
-header#links>ul {
+article#links>ul {
     list-style: none;
 }
-header#links>ul>li {
+article#links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
 
@@ -80,13 +80,12 @@ table th {
 }
 
 table td:nth-child(odd) {
-    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
     text-align: right;
 }
 
 table td:nth-child(even) {
-    margin: 0 0 0 5px;
-    text-align: left;
+    padding: 0 0 0 5px;
 }
 
 table tr:nth-child(odd) {
