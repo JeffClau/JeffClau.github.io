@@ -49,6 +49,7 @@ div#poster>img {
     max-height: auto;
     width: auto;
     height: auto;
+    scale: auto;
 }
 
 div#content {
