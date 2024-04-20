@@ -118,7 +118,7 @@ div#sidebar {
 }
 
 
-.container {
+.movies {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
@@ -162,7 +162,7 @@ footer ul li {
 
 }
 
-#copyright>p {
+article#copyright>p {
     margin: 5px;
     text-align: bottom right;
 }
