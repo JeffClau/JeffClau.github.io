@@ -17,7 +17,7 @@ header {
     vertical-align: middle;
 }
 
-#logo>img {
+header#logo>img {
     margin: 10px;
     padding: 0px;
     display: block;
@@ -29,14 +29,12 @@ header {
 
 header#links {
     color: #32bea6;
-    text-align: center;
 }
 
-#links>ul {
-    text-align: center;
+header#links>ul {
+    list-style: none;
 }
-
-#links>ul>li {
+header#links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
 
@@ -46,7 +44,7 @@ a:hover {
     color: #e0878e;
 }
 
-#poster>img {
+div#poster>img {
     max-width: 990px;
     max-height: auto;
     width: auto;
@@ -112,29 +110,29 @@ div#sidebar {
     margin: 0px 15px 20px 15px;
 }
 
-#sidebar>h2 {
+div#sidebar>h2 {
     font-size: 21px;
 }
 
 
-.grid-container{
+div.grid-container{
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
 }
-.grid-container h2 {
+div.grid-container h2 {
     font-size: 2em;
 }
 
-.grid-container ul {
+div.grid-container ul {
     list-style: none;
     list-style-position: inside;
     max-width: 100%;
 }
 
-.grid-container ul li {
+div.grid-container ul li {
     display: inline;
 }
 
