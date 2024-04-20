@@ -155,6 +155,10 @@ article#copyright {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .grid-container:nth-child(4){
+        display: none;
+    }
+
     .grid-container:nth-last-child() {
         display: none;
     }
