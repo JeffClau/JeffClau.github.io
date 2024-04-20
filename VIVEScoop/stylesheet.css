@@ -14,7 +14,7 @@ section {
 header {
     background-color: #eeeeee;
     color: #32bea6;
-    text-align: center;
+    vertical-align: middle;
     max-width: 990px;
 }
 
@@ -161,7 +161,7 @@ footer ul li {
 
 }
 
-article#copyright>p {
+article#copyright {
     margin: 5px;
     text-align: bottom right;
 }
