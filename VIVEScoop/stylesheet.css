@@ -6,8 +6,6 @@ body {
 
 section {
     width: 990px;
-    width: auto;
-    margin: auto;
     align-content: center;
 }
 
@@ -34,6 +32,7 @@ article#links {
 article#links>ul {
     list-style: none;
 }
+
 article#links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
@@ -45,18 +44,16 @@ a:hover {
 }
 
 div#poster>img {
-    max-width: 990px;
-    max-height: auto;
+    margin: 10px;
     width: auto;
     height: auto;
     scale: auto;
 }
 
-div#content {
-    max-width: 660px;
-    margin: 10px 15px 0 15px;
+/*div#content {
+    max-width: 66%;
 }
-
+*/
 article#summary>h1 {
     font-size: 3em;
 }
@@ -69,8 +66,6 @@ table {
     table-layout: fixed;
     border: dotted 1px black;
     border-collapse: collapse;
-    margin: 0px;
-    padding: 0px;
     width: 100%;
 }
 
@@ -104,23 +99,25 @@ table td:hover {
     background-color: #ce0000;
 }
 
-div#sidebar {
-    max-width: 300px;
-    text-align: left;
-    margin: 0px 15px 20px 15px;
+/*div#sidebar {
+    max-width: 33%;
 }
-
+*/
 div#sidebar>h2 {
     font-size: 21px;
 }
 
-
-article.grid-container{
+article.grid-container {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
 }
+
+div#interests { 
+    margin: 25px 0 0 0;
+}
+
 div#interests>h2 {
     font-size: 2em;
 }
@@ -151,4 +148,15 @@ footer ul li {
 article#copyright {
     margin: 5px;
     text-align: bottom right;
+}
+
+@media (max-width: 990px) {
+    div#content {
+        margin: 0 15px 0 15px;
+    }
+
+    div#sidebar {
+        margin: 20px 15px 0 15px;
+    }
+
 }
