@@ -139,7 +139,7 @@ div#sidebar {
 }
 
 footer {
-    margin: 25px;
+    margin: 25px 0 0 0;
     background-color: #eeeeee;
     color: #32bea6;
     font-size: 14px;
