@@ -79,11 +79,11 @@ table td:nth-child(even) {
     padding: 0 0 0 5px;
 }
 
-table tr:nth-child(odd) {
+table tr:nth-child(even) {
     background-color: #bebebe;
 }
 
-table tr:nth-child(even) {
+table tr:nth-child(odd) {
     background-color: white;
 }
 
