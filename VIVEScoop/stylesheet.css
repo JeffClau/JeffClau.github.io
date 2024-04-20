@@ -118,24 +118,23 @@ div#sidebar {
 }
 
 
-.movies {
+.grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
 }
-
-#interests>h2 {
+.grid-container h2 {
     font-size: 2em;
 }
 
-#interests>ul {
+.grid-container ul {
     list-style: none;
     list-style-position: inside;
     max-width: 100%;
 }
 
-#interests>ul>li {
+.grid-container ul li {
     display: inline;
 }
 
