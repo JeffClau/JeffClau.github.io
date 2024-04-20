@@ -15,7 +15,6 @@ header {
     background-color: #eeeeee;
     color: #32bea6;
     vertical-align: middle;
-    max-width: 990px;
 }
 
 #logo>img {
@@ -120,6 +119,7 @@ div#sidebar {
 
 .grid-container{
     display: grid;
+
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
