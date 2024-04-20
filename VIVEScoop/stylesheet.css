@@ -2,11 +2,12 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
     text-align: left;
+    max-width: 990px;
     
 }
 
 section {
-    width: 990px;
+    width: 100%;
     align-content: center;
 }
 
@@ -16,9 +17,8 @@ section header {
     vertical-align: middle;
 }
 
-article#logo>img {
+div#logo>img {
     margin: 10px;
-    padding: 0px;
     display: block;
     max-width: 50px;
     max-height: 50px;
