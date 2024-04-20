@@ -63,11 +63,11 @@ article#summary>h1 {
     font-size: 3em;
 }
 
-article#summary{
+article#summary {
     text-align: left;
 }
 
-article#data>table {
+table {
     table-layout: fixed;
     border: dotted 1px black;
     border-collapse: collapse;
@@ -81,16 +81,12 @@ table th {
     text-align: center;
 }
 
-table tr td:nth-child(odd) {
-    border: 0 1px 0 0px solid black;
-}
-
-table tr:nth-child(odd) {
+table td:nth-child(odd) {
     margin: 0 5px 0 0;
     text-align: right;
 }
 
-table tr:nth-child(even) {
+table td:nth-child(even) {
     margin: 0 0 0 5px;
     text-align: left;
 }
@@ -99,7 +95,7 @@ table tr:nth-child(odd) {
     background-color: #bebebe;
 }
 
-table> r:nth-child(even) {
+table tr:nth-child(even) {
     background-color: white;
 }
 
@@ -121,11 +117,12 @@ div#sidebar {
     font-size: 21px;
 }
 
-div#interests {
 
-    max-width: 100%;
-    text-align: left;
-    margin: 25px 0px 0px 15px;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    gap: 10px;
 }
 
 #interests>h2 {
