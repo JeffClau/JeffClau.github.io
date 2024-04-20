@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 section {
@@ -117,7 +117,7 @@ div#sidebar>h2 {
 
 
 article.grid-container{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
