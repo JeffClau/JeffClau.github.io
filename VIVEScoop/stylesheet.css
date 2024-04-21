@@ -30,11 +30,11 @@ div#links {
     color: #32bea6;
 }
 
-article#links>ul {
+div#links>ul {
     list-style: none;
 }
 
-article#links>ul>li {
+div#links>ul>li {
     display: inline;
     margin: 0 20px 0 0;
 }
@@ -100,7 +100,7 @@ div#sidebar>h2 {
 }
 
 article.grid-container {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
     gap: 10px;
