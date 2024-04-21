@@ -7,16 +7,16 @@ body {
     align-content: center;
 }
 
-section.container,
-.row {
+section.container{
     max-width: 990px;
     --breakpoint-lg: 990px;
     text-align: left;
     padding: 0;
 }
 
-div, div>img {
-    padding: 0;
+.row, .row>div, .row>img {
+    padding:0;
+    margin:0;
 }
 
 section header {
