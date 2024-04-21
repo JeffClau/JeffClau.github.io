@@ -8,6 +8,7 @@ section.container, div.row {
     max-width: 990px;
     --breakpoint-lg:990px;
     text-align: left;
+    padding: 0;
 }
 
 section header {
@@ -27,6 +28,7 @@ div#links>ul {
     color: #32bea6;
     vertical-align: center;
     list-style: none;
+    margin: 0;
 }
 
 div#links>ul>li {
@@ -111,7 +113,8 @@ footer h2 {
 
 footer ul {
     list-style: none;
-    margin: 5px
+    margin: 5px;
+    padding: 0;
 }
 
 footer ul li {
