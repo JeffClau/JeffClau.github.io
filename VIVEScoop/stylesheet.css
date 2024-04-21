@@ -97,11 +97,11 @@ table th {
 table td:nth-child(odd) {
     padding: 0 5px 0 0;
     text-align: right;
+    border-right: 1px solid black;
 }
 
 table td:nth-child(even) {
     padding: 0 0 0 5px;
-    border-right: 1px solid black;
 }
 
 table tr:nth-child(even) {
