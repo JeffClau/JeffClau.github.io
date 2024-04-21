@@ -21,6 +21,7 @@ section.container{
 
 section header {
     background-color: #eeeeee;
+    margin:0;
 }
 
 div#logo>img {
