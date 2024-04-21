@@ -30,7 +30,7 @@ div#logo {
     float: left;
 }
 
-div#logo>img {
+div#logo>a>img {
     margin: 10px;
     max-width: 50px;
     max-height: 50px;
@@ -103,6 +103,7 @@ table td:nth-child(odd) {
 
 table td:nth-child(even) {
     padding: 0 0 0 5px;
+    border-right: 1px solid black;
 }
 
 table tr:nth-child(even) {
