@@ -41,6 +41,7 @@ div#links {
 }
 
 div#links>ul {
+    vertical-align: middle;
     list-style: none;
     margin: 10px 0 10px 0;
 }
