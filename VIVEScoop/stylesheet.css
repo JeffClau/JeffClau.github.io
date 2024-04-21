@@ -2,8 +2,8 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
     align-content: center;
-    
 }
+
 body section {
     width: 990px;
     text-align: left;
@@ -37,19 +37,9 @@ a:hover {
     color: #e0878e;
 }
 
-/*div#poster>img {
-    width: auto;
-    height: auto;
-    scale: auto;
-}*/
-
 article#summary>h1 {
     margin-top: 10px;
     font-size: 3em;
-}
-
-article#summary {
-    text-align: left;
 }
 
 table {
@@ -146,7 +136,7 @@ article#copyright {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .grid-item:nth-child(4){
+    .grid-item:nth-child(4) {
         display: none;
     }
 
