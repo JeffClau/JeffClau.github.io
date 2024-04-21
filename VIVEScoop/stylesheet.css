@@ -6,6 +6,7 @@ body {
 
 section.container, div.row {
     max-width: 990px;
+    --breakpoint-lg:990px;
     text-align: left;
 }
 
@@ -30,7 +31,7 @@ div#links>ul {
 
 div#links>ul>li {
     display: inline;
-    margin: 0 20px 0 0;
+    margin: 0 0 0 20px;
 }
 
 a:hover {
