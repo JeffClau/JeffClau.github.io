@@ -35,12 +35,12 @@ div#logo>img {
 
 div#links>ul {
     list-style: none;
-    margin: 0;
+    margin: 10px 0 10px 0;
 }
 
 div#links>ul>li {
     display: inline;
-    margin: 10px 0 10px 20px;
+    margin: 0 0 0 20px;
 }
 
 div#links>ul>li>a {
@@ -99,7 +99,7 @@ div#sidebar>div>h2 {
     font-size: 21px;
 }
 
-article.grid-container {
+div.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-flow: column;
