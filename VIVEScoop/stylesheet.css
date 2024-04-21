@@ -162,7 +162,7 @@ div#copyright {
         display: none;
     }
 
-    div.grid-item:nth-child(5) {
+    img.grid-item:nth-child(5) {
         display: none;
     }
 
