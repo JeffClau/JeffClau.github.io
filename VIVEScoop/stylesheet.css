@@ -189,8 +189,8 @@ div#copyright {
     }
 
     img.grid-item {
-        width: 150%;
-        height: 150%;
+       max-width: 150%;
+       max-height: 150%;
     }
 
     img.grid-item:nth-child(4) {
