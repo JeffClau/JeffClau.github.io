@@ -4,7 +4,7 @@ body {
     align-content: center;
 }
 
-section {
+section.container {
     max-width: 990px;
     text-align: left;
     padding: 0 0 0 0;
@@ -133,15 +133,15 @@ article#copyright {
         margin: 20px 15px 0 15px;
     }
 
-    article.grid-container {
+    div.grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .grid-item:nth-child(4) {
+    div.grid-item:nth-child(4) {
         display: none;
     }
 
-    .grid-item:nth-child(5) {
+    div.grid-item:nth-child(5) {
         display: none;
     }
 
