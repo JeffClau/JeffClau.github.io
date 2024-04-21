@@ -4,8 +4,7 @@ body {
     max-width: 990px;
     
 }
-
-section {
+body section {
     width: 100%;
     align-content: center;
     text-align: left;
@@ -14,7 +13,6 @@ section {
 section header {
     background-color: #eeeeee;
     color: #32bea6;
-    vertical-align: middle;
 }
 
 div#logo>img {
@@ -27,6 +25,7 @@ div#logo>img {
 }
 
 div#links>ul {
+    vertical-align: middle;
     list-style: none;
 }
 
