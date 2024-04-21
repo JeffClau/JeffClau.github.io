@@ -4,7 +4,7 @@ body {
     align-content: center;
 }
 
-body section {
+section {
     max-width: 990px;
     text-align: left;
 }
