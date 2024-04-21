@@ -5,7 +5,7 @@ body {
 }
 
 body section {
-    width: 990px;
+    max-width: 990px;
     text-align: left;
 }
 
@@ -37,8 +37,8 @@ a:hover {
     color: #e0878e;
 }
 
-article#summary>h1 {
-    margin-top: 10px;
+div#summary>h1 {
+    margin: 10px 0 0 0;
     font-size: 3em;
 }
 
