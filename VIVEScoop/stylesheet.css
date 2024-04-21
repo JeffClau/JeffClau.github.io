@@ -4,14 +4,8 @@ body {
     align-content: center;
 }
 
-section{
-    text-align: left;
-    max-width: 990px;
-}
-
 section.container, .row {
     --breakpoint-lg:990px;
-    text-align: left;
     padding: 0;
 }
 
@@ -21,6 +15,11 @@ section.container, .row {
 
 section header {
     background-color: #eeeeee;
+}
+
+div {
+    text-align: left;
+    padding: 0;
 }
 
 div#logo>img {
