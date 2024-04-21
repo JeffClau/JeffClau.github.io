@@ -4,10 +4,9 @@ body {
     align-content: center;
 }
 
-section.container {
+section.container, div.row {
     max-width: 990px;
     text-align: left;
-    padding: 0 0 0 0;
 }
 
 section header {
