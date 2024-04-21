@@ -192,6 +192,11 @@ div#copyright {
         margin: 25px 15px 0 15px;
     }
 
+    img.grid-item {
+        max-width: 100%;
+        max-height: 100%;   
+    }
+
     img.grid-item:nth-child(4) {
         display: none;
     }
