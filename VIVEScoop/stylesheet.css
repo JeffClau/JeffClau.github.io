@@ -139,6 +139,7 @@ div.grid-container {
 img.grid-item {
     max-width: 100%;
     max-height: 100%;
+    object-fit: contain;
 }
 
 div#interests {
@@ -190,9 +191,10 @@ div#copyright {
         margin: 25px 15px 0 15px;
     }
 
-    img.grid-item {
+    div#interests>img.grid-item {
         min-width: 100%;
         min-height: 100%;
+        object-fit: none;
     }
 
     img.grid-item:nth-child(4) {
