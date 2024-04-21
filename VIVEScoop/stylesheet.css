@@ -126,9 +126,10 @@ footer ul li {
     list-style: none;
 }
 
-article#copyright {
-    font-family: cur;
-    text-align: bottom right;
+div#copyright {
+    clear: both;
+    font-family: cursive;
+    text-align: right;
 }
 
 @media (max-width: 990px) {
