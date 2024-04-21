@@ -124,6 +124,11 @@ div#sidebar>div>h2 {
     font-size: 21px;
 }
 
+#sidebar>div>ul {
+    list-style: none;
+    padding: 0;
+}
+
 div.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -159,10 +164,6 @@ footer h2 {
 footer ul {
     list-style: none;
     padding: 0;
-}
-
-footer ul li {
-    list-style: none;
 }
 
 div#copyright {
