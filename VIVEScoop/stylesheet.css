@@ -9,6 +9,7 @@ section.container, div.row {
     --breakpoint-lg:990px;
     text-align: left;
     padding: 0;
+    margin: 0;;
 }
 
 section header {
