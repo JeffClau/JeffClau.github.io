@@ -11,6 +11,10 @@ section.container, .row {
     padding:0;
 }
 
+div{
+    padding: 0;
+}
+
 section header {
     background-color: #eeeeee;
 }
