@@ -26,10 +26,6 @@ div#logo>img {
     height: auto;
 }
 
-div#links {
-    color: #32bea6;
-}
-
 div#links>ul {
     list-style: none;
 }
@@ -117,7 +113,6 @@ div#interests>h2 {
 section footer {
     margin: 25px 0 0 0;
     background-color: #eeeeee;
-    color: #32bea6;
     font-size: 14px;
 }
 
@@ -127,14 +122,11 @@ footer h2 {
 
 footer ul {
     list-style: none;
-    text-align: left;
     margin: 5px
 }
 
 footer ul li {
     list-style: none;
-    text-align: left;
-
 }
 
 article#copyright {
