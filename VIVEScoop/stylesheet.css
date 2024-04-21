@@ -14,10 +14,10 @@ section.container, .row{
     padding: 0;
 }
 
-.row, .row>div, .row>img {
+/*.row, .row>div, .row>img {
     padding:0;
     margin:0;
-}
+}*/
 
 section header {
     background-color: #eeeeee;
