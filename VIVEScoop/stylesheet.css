@@ -1,21 +1,23 @@
-html{
-    padding:0;
+html {
+    padding: 0;
 }
+
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
     align-content: center;
 }
 
-section.container, .row{
+section.container,
+.row {
     max-width: 990px;
     --breakpoint-lg: 990px;
     text-align: left;
     padding: 0;
 }
 
-.row{
-    margin:0;
+.row {
+    margin: 0;
 }
 
 section header {
@@ -61,15 +63,16 @@ a:hover {
     text-decoration: none;
 }
 
-div#poster>img{
+div#poster>img {
     margin: 0;
     padding: 0;
 }
 
 div#title {
     margin: 10px 0 0 0;
-    padding:0;
+    padding: 0;
 }
+
 div#title>h1 {
     padding: 0;
     font-size: 3em;
@@ -89,7 +92,7 @@ table {
 
 
 table th {
-    border-bottom:3px solid black;
+    border-bottom: 3px solid black;
     text-align: center;
 }
 
@@ -118,7 +121,6 @@ table tr:hover {
     background-color: #ce0000;
 }
 
-
 div#sidebar>div>h2 {
     font-size: 21px;
 }
@@ -128,14 +130,17 @@ div.grid-container {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-flow: column;
     gap: 10px;
-    object-fit:contain;
-    max-width: 100%;
 }
 
+img.grid-item {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
 
 div#interests {
     margin: 25px 0 0 0;
-    padding:0;
+    padding: 0;
 }
 
 div#interests>h2 {
@@ -169,10 +174,11 @@ div#copyright {
 }
 
 @media (max-width: 990px) {
-    
+
     div#title {
         margin: 10px 15px 0 15px;
     }
+
     div#content {
         margin: 0 15px 0 15px;
     }
