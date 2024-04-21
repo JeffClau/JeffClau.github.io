@@ -27,7 +27,6 @@ section header {
 div#logo {
     margin: 0;
     padding: 0;
-    float: left;
 }
 
 div#logo>a>img {
@@ -39,9 +38,9 @@ div#logo>a>img {
 }
 
 div#links {
+    text-align: right;
     margin: 0;
     padding: 0;
-    float: right;
 }
 
 div#links>ul {
