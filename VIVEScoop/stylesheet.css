@@ -1,12 +1,12 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
-    max-width: 990px;
+    width: 990px;
+    align-content: center;
     
 }
 body section {
     width: 100%;
-    align-content: center;
     text-align: left;
 }
 
