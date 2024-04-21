@@ -1,7 +1,3 @@
-html {
-    padding: 0;
-}
-
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     font-size: 16px;
@@ -38,7 +34,7 @@ div#logo>a>img {
 }
 
 div#links {
-    text-align: right;
+    text-align: middle right;
     margin: 0;
     padding: 0;
 }
@@ -50,7 +46,7 @@ div#links>ul {
 
 div#links>ul>li {
     display: inline;
-    margin: 0 0 0 20px;
+    margin: 0 20px 0 0;
 }
 
 div#links>ul>li>a {
