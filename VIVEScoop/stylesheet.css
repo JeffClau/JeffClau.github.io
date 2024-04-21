@@ -141,11 +141,11 @@ div#copyright {
         margin: 20px 15px 0 15px;
     }
 
-    div.grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
+    div#interests {
+        margin: 25px 15px 0 15px;
     }
 
-    div.grid-item:nth-child(4) {
+    img.grid-item:nth-child(4) {
         display: none;
     }
 
