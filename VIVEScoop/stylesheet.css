@@ -37,7 +37,7 @@ div#links>ul {
     margin: 0;
 }
 
-div#links>ul>li {
+div#links>ul>li>a {
     color: #32bea6;
     display: inline;
     margin: 10px 0 10px 20px;
@@ -48,7 +48,7 @@ a:hover {
     text-decoration: none;
 }
 
-div#summary>h1 {
+div#title>h1 {
     margin: 10px 0 0 0;
     font-size: 3em;
 }
@@ -90,7 +90,7 @@ table tr:hover {
     background-color: #ce0000;
 }
 
-div#sidebar>h2 {
+div#sidebar>div>h2 {
     font-size: 21px;
 }
 
