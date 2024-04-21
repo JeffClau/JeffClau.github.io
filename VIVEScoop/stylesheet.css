@@ -5,6 +5,7 @@ body {
 }
 
 section.container, .row {
+    max-width: 990px;
     --breakpoint-lg:990px;
     padding: 0;
 }
