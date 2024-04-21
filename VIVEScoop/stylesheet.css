@@ -39,8 +39,8 @@ div#links>ul {
 
 div#links>ul>li {
     color: #32bea6;
-    display: inline-block;
-    margin: 0 0 0 20px;
+    display: inline;
+    margin: 10px 0 10px 20px;
 }
 
 a:hover {
@@ -86,7 +86,7 @@ table tr:last-child() {
     font-size: 70%;
 }
 
-table td:hover {
+table tr:hover {
     background-color: #ce0000;
 }
 
