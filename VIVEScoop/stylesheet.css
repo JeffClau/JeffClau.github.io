@@ -9,6 +9,9 @@ section.container, div.row {
     --breakpoint-lg:990px;
     text-align: left;
     padding: 0;
+}
+
+div.row {
     margin: 0;
 }
 
@@ -27,7 +30,6 @@ div#logo>img {
 
 div#links>ul {
     color: #32bea6;
-    vertical-align: middle;
     list-style: none;
     margin: 0;
 }
@@ -35,6 +37,7 @@ div#links>ul {
 div#links>ul>li {
     display: inline;
     margin: 0 0 0 20px;
+    vertical-align: middle;
 }
 
 a:hover {
