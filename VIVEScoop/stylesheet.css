@@ -160,7 +160,7 @@ article#copyright {
         display: none;
     }
 
-    .grid-item:nth-last-child() {
+    .grid-item:nth-child(5) {
         display: none;
     }
 
