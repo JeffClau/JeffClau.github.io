@@ -38,10 +38,13 @@ div#links>ul {
     margin: 0;
 }
 
-div#links>ul>li>a {
-    color: #32bea6;
+div#links>ul>li {
     display: inline;
     margin: 10px 0 10px 20px;
+}
+
+div#links>ul>li>a {
+    color: #32bea6;
 }
 
 a:hover {
