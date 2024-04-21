@@ -26,7 +26,7 @@ div#logo>img {
 
 div#links>ul {
     color: #32bea6;
-    vertical-align: center;
+    vertical-align: middle;
     list-style: none;
     margin: 0;
 }
