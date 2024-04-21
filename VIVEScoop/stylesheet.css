@@ -152,7 +152,6 @@ div#interests>h2 {
 
 section footer {
     margin: 25px 0 0 0;
-    padding: 0 0 0 5px;
     background-color: #eeeeee;
     font-size: 14px;
 }
@@ -163,6 +162,9 @@ footer h2 {
 
 footer ul {
     list-style: none;
+}
+
+footer ul li{
     padding: 0;
 }
 
