@@ -146,7 +146,7 @@ div#interests {
     padding: 0;
 }
 
-div#interests>div>h2 {
+div#interests>h2 {
     font-size: 2em;
 }
 
