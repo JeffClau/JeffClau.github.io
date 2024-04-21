@@ -22,6 +22,7 @@ section.container, .row{
 section header {
     background-color: #eeeeee;
     margin:0;
+    padding:0;
 }
 
 div#logo>img {
@@ -52,10 +53,18 @@ a:hover {
     text-decoration: none;
 }
 
+div#title {
+    margin: 10px 0 0 0;
+    padding:0;
+}
 div#title>h1 {
     padding: 0;
-    margin: 10px 0 0 0;
     font-size: 3em;
+}
+
+div#content {
+    margin: 0;
+    padding: 0;
 }
 
 table {
@@ -63,7 +72,10 @@ table {
     border: dotted 1px black;
     border-collapse: collapse;
     width: 100%;
+    padding:0;
+    margin:0;
 }
+
 
 table th {
     border: 0 0 3px 0 solid black;
@@ -95,6 +107,7 @@ table tr:hover {
     background-color: #ce0000;
 }
 
+
 div#sidebar>div>h2 {
     font-size: 21px;
 }
@@ -109,6 +122,7 @@ div.grid-container {
 
 div#interests {
     margin: 25px 0 0 0;
+    padding:0;
 }
 
 div#interests>h2 {
