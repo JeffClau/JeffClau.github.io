@@ -90,8 +90,10 @@ article.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1fr;
+    grid-auto-flow: column;
     gap: 10px;
 }
+
 
 div#interests {
     margin: 25px 0 0 0;
