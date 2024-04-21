@@ -4,14 +4,15 @@ body {
     align-content: center;
 }
 
-section.container, .row {
+section.container,
+.row {
     max-width: 990px;
-    --breakpoint-lg:990px;
+    --breakpoint-lg: 990px;
     text-align: left;
-    padding:0;
+    padding: 0;
 }
 
-div{
+img {
     padding: 0;
 }
 
