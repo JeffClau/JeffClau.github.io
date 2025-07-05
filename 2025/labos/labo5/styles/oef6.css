@@ -16,9 +16,11 @@ p {
 }
  p.first {
     color: #e00d0d;
+    font-size: 2ex;
  }
   p.second {
     color: #1dac10;
+    font-size: 2em;
  }
   p.third {
     color: #0d1be0;
