@@ -1,29 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery with Navigation</title>
+    <title>Gallery with Images & Videos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Belle: a dog's life</h1>
+        <h1>Media Gallery</h1>
     </header>
 
     <main class="gallery">
+        <!-- Images -->
         <img src="images/photo1.jpg" alt="Photo 1">
         <img src="images/photo2.jpg" alt="Photo 2">
-        <img src="images/photo3.jpg" alt="Photo 3">
-        <img src="images/photo4.jpg" alt="Photo 4">
-        <img src="images/photo5.jpg" alt="Photo 5">
+
+        <!-- Videos -->
+        <video src="videos/video1.mp4" muted></video>
+       
     </main>
 
     <!-- Lightbox -->
     <div id="lightbox" class="hidden">
         <span id="close">&times;</span>
         <span id="prev" class="nav">&#10094;</span>
-        <img id="lightbox-img" src="" alt="Large view">
+
+        <!-- Media containers -->
+        <img id="lightbox-img" class="hidden" alt="Large view">
+        <video id="lightbox-video" class="hidden" controls></video>
+
         <span id="next" class="nav">&#10095;</span>
     </div>
 
